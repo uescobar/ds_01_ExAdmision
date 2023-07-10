@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # cargar el dataset
-df = pd.read_csv('dataset_ExAdmisionIngenierias2020_2022.csv')
+df = pd.read_csv('../data/dataset_ExAdmisionIngenierias2020_2022.csv')
 #st.write(df.shape)
 #eliminar del dataset los registros con na
 #df.dropna(inplace=True)
